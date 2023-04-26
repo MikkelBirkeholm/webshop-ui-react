@@ -1,6 +1,6 @@
 // import { useCart } from '../store/Store'
 
-export default function Checkout({ items }) {
+export default function Checkout({ items, closeCheckout }) {
   // calculate total
   const total = items.reduce((acc, item) => {
     return acc + item.price
@@ -8,11 +8,10 @@ export default function Checkout({ items }) {
 
   function handleSubmit(e) {
     e.preventDefault()
-    console.log('submit')
   }
 
   return (
-    <div className="flex flex-col gap-4 p-4 w-full border bg-slate-50 rounded-lg text-slate-900">
+    <div className="flex flex-col gap-4 w-full text-slate-900">
       <h2>Checkout</h2>
       <div className="flex flex-col gap-4">
         <div className="flex justify-between">

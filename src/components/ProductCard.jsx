@@ -27,7 +27,7 @@ export default function ProductCard({ item, addToCart }) {
       <div className="relative">
         <img
           className="w-full h-64 object-cover"
-          src={`/src/assets/${item.image}`}
+          src={`${item.image}`}
           alt={item.title}
         />
         <div

@@ -15,7 +15,7 @@ export default function App() {
       description:
         'This render looks like a stack of Pringles. Pretty cool, huh?',
       price: 20,
-      image: 'p1.jpg',
+      image: '/p1.jpg',
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export default function App() {
       description:
         "I don't know man. Yeah. No idea. I mean, it's a render. It's a render of something.",
       price: 13,
-      image: 'p2.jpg',
+      image: '/p2.jpg',
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function App() {
       description:
         'This render looks like a Fruit Roll-Up but see through. Like glass. Crunchy.',
       price: 15,
-      image: 'p3.jpg',
+      image: '/p3.jpg',
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ export default function App() {
       title: 'B**thole',
       description: 'Tastes better than it looks. Trust me.',
       price: 8,
-      image: 'p4.jpg',
+      image: '/p4.jpg',
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ export default function App() {
       title: 'Dots',
       description: 'Popping candy. You know what it is. You know what it does.',
       price: 6,
-      image: 'p5.jpg',
+      image: '/p5.jpg',
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ export default function App() {
       description:
         'Stick it in your mouth and chew. It will dissolve. It will taste like nothing.',
       price: 10,
-      image: 'p6.jpg',
+      image: '/p6.jpg',
     },
     {
       id: 7,
@@ -66,7 +66,7 @@ export default function App() {
       title: 'Lakridssnørrebånd',
       description: 'No hands. Fight me.',
       price: 7.5,
-      image: 'p7.jpg',
+      image: '/p7.jpg',
     },
     {
       id: 8,
@@ -74,7 +74,7 @@ export default function App() {
       title: 'Mints',
       description: 'Fresh breath of air. Thank you, mint. You are the best.',
       price: 2,
-      image: 'p8.jpg',
+      image: '/p8.jpg',
     },
     {
       id: 9,
@@ -83,7 +83,7 @@ export default function App() {
       description:
         'Perfect chewyness. Perfect taste. Perfect texture. Perfect everything.',
       price: 19,
-      image: 'p9.jpg',
+      image: '/p9.jpg',
     },
   ]
 
